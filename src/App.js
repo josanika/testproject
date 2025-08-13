@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-
+//function 
 function App() {
   const [locations, setLocations] = useState(["", "", ""]);
   const [weatherData, setWeatherData] = useState([]);
